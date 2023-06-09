@@ -224,8 +224,25 @@ body {
   box-shadow: 0px 0px 10px;
 }
 
+.form-submission-text{
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    top: 30%;
+    background: -webkit-linear-gradient(
+        90deg,
+        rgb(107, 2, 37) 0%,
+        rgba(121, 9, 87, 1) 35%,
+        rgba(175, 58, 96, 1) 71%,
+        rgba(241, 26, 191, 1) 95%
+      );
+      -webkit-background-clip: text;
+      background-clip: calc();
+      -webkit-text-fill-color: transparent;
+}
 .blob {
-  position: fixed;
+  position: fixed !important;
   top: 0;
   left: 0;
   fill: #f3a5fa;
