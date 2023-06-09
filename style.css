@@ -260,7 +260,7 @@ body {
 
 .portfolio-content h2{
     font-size: 40px;
-    color: #f3a5fa;
+    color: rgb(165, 72, 205);
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
@@ -284,7 +284,7 @@ body {
   position: fixed !important;
   top: 0;
   left: 0;
-  fill: rgb(165, 72, 205);
+  fill: #f3a5fa;
   width: 50vmax;
   z-index: -3;
   animation: move 15s ease-in-out infinite;
